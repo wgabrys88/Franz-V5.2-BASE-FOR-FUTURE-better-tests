@@ -1,6 +1,3 @@
-
-
-```markdown
 # Franz Swarm
 
 Autonomous computer-control agent system for Windows 11. Pure Python 3.13, stdlib only, zero pip dependencies.
@@ -305,5 +302,6 @@ Verifies that simultaneous requests from different agents do not interfere with 
 **If `concurrent_distinct_request_ids` fails:** UUID collision (astronomically unlikely) or a bug in how request_ids propagate through the SSE pipeline.
 
 ### Phase 8: Log Structure
+
 
 Validates the machine-readable log file that supports debugging[ERROR] peer closed connection without sending complete message body (incomplete chunked read)
